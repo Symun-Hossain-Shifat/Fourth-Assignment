@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourth Assignment</title>
+    <!-- Connect Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- Connect font awesome icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="w-4/5 mx-auto  bg-gray-100 px-5">
+    <!-- section for header -->
+<header class="space-y-6 pt-10">
+    <h1 class="text-2xl font-bold text-blue-950  pl-3">Job Application Tracker</h1>
+    <div class="header-container grid grid-cols-3 gap-4">
+        <div class=" rounded-sm bg-white ">
+            <h5 class="text-[15px] font-semibold  text-blue-950 pl-3 pt-2">Total</h5>
+            <p class="text-2xl font-bold  pl-3 pb-2 text-blue-950 total">0</p>
+        </div>
+        <div class=" rounded-sm bg-white ">
+            <h3 class="text-[15px] font-semibold  text-blue-950 pl-3  pt-2">Interview</h3>
+            <p class="text-2xl font-bold  pl-3  pb-2 text-green-500 interview">0</p>
+        </div>
+        <div class=" rounded-sm bg-white ">
+            <h3 class="text-[15px] font-semibold  text-blue-950 pl-3  pt-2">Rejected</h3>
+            <p class="text-2xl font-bold  pl-3  pb-2 text-red-700 rejected">0</p>
+        </div>
+    </div>
+</header>
+
+<!-- section for subheading -->
+ <section class="my-10 px-2">
+    <div class="subheading justify-between flex ">
+        <h3 class="text-blue-950 text-[20px] font-semibold">Available Jobs</h3>
+        <p class="text-blue-950 "> <span></span>8 jobs</p>
+    </div>
+ </section>
+
+ <!-- section for button -->
+<section class="flex gap-2 py-6 ">
+    <button class="button-all w-20 r px-4 lg:py-1  lg:px-3 bg-blue-600 rounded-sm  text-white">All</button>
+    <button class="button-interview py-1 px-4 lg:py-1 lg:px-3 bg-white rounded-sm ">Interview</button>
+    <button class="button-rejected py-1 px-4 bg-white  lg:py-1 lg:px-3 rounded-sm  ">Rejected</button>
+
+</section>
+
+<!-- section for all cards -->
+
+
+ <section class="cards-container my-10">
+    <div class="parent space-y-6">
+        <div class="cards bg-white flex p-5 rounded-sm">
+            <div class="firstone space-y-3">
+                <h3 class="title text-[20px] font-bold">Mobile First Corp</h3>
+                <p class="text-[15px] text-gray-500 font-semibold">React Native Developer</p>
+                <p class="text-[15px] text-gray-500 font-semibold">Remote • Full-time • $130,000 - $175,000</p>
+                 <button class="bg-gray-300 py-3 px-6 ">NOT APPLIED</button>
+            <p class="text-[15px] text-gray-500 font-semibold">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
+            <div class="flex gap-2">
+                <button class="interviewbtn px-3 rounded-sm text-green-500 border border-green-500">INTERVIEW</button>
+                <button class="rejectbtn border px-3 rounded-sm text-red-600 border-red-600">REJECTED</button>
+            </div>
+            </div>
+            <div class="secondone border text-center content-center  h-7 w-8  rounded-full">
+               <i class=" fa-regular fa-trash-can"></i>
+            </div>
+           
+        </div>
+        <div class="cards bg-white flex p-5 rounded-sm">
+            <div class="firstone space-y-3">
+                <h3 class="title text-[20px] font-bold">Mobile First Corp</h3>
+                <p class="text-[15px] text-gray-500 font-semibold">React Native Developer</p>
+                <p class="text-[15px] text-gray-500 font-semibold">Remote • Full-time • $130,000 - $175,000</p>
+                 <button class="bg-gray-300 py-3 px-6 ">NOT APPLIED</button>
+            <p class="text-[15px] text-gray-500 font-semibold">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
+            <div class="flex gap-2">
+                <button class="interviewbtn px-3 rounded-sm text-green-500 border border-green-500">INTERVIEW</button>
+                <button class="rejectbtn border px-3 rounded-sm text-red-600 border-red-600">REJECTED</button>
+            </div>
+            </div>
+            <div class="secondone border text-center content-center  h-7 w-8  rounded-full">
+               <i class=" fa-regular fa-trash-can"></i>
+            </div>
+           
+        </div>
+        <div class="cards bg-white flex p-5 rounded-sm">
+            <div class="firstone space-y-3">
+                <h3 class="title text-[20px] font-bold">Mobile First Corp</h3>
+                <p class="text-[15px] text-gray-500 font-semibold">React Native Developer</p>
+                <p class="text-[15px] text-gray-500 font-semibold">Remote • Full-time • $130,000 - $175,000</p>
+                 <button class="bg-gray-300 py-3 px-6 ">NOT APPLIED</button>
+            <p class="text-[15px] text-gray-500 font-semibold">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
+            <div class="flex gap-2">
+                <button class="interviewbtn px-3 rounded-sm text-green-500 border border-green-500">INTERVIEW</button>
+                <button class="rejectbtn border px-3 rounded-sm text-red-600 border-red-600">REJECTED</button>
+            </div>
+            </div>
+            <div class="secondone border text-center content-center  h-7 w-8  rounded-full">
+               <i class=" fa-regular fa-trash-can"></i>
+            </div>
+           
+        </div>
+        <div class="cards bg-white flex p-5 rounded-sm">
+            <div class="firstone space-y-3">
+                <h3 class="title text-[20px] font-bold">Mobile First Corp</h3>
+                <p class="text-[15px] text-gray-500 font-semibold">React Native Developer</p>
+                <p class="text-[15px] text-gray-500 font-semibold">Remote • Full-time • $130,000 - $175,000</p>
+                 <button class="bg-gray-300 py-3 px-6 ">NOT APPLIED</button>
+            <p class="text-[15px] text-gray-500 font-semibold">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
+            <div class="flex gap-2">
+                <button class="interviewbtn px-3 rounded-sm text-green-500 border border-green-500">INTERVIEW</button>
+                <button class="rejectbtn border px-3 rounded-sm text-red-600 border-red-600">REJECTED</button>
+            </div>
+            </div>
+            <div class="secondone border text-center content-center  h-7 w-8  rounded-full">
+               <i class=" fa-regular fa-trash-can"></i>
+            </div>
+           
+        </div>
+        <div class="cards bg-white flex p-5 rounded-sm">
+            <div class="firstone space-y-3">
+                <h3 class="title text-[20px] font-bold">Mobile First Corp</h3>
+                <p class="text-[15px] text-gray-500 font-semibold">React Native Developer</p>
+                <p class="text-[15px] text-gray-500 font-semibold">Remote • Full-time • $130,000 - $175,000</p>
+                 <button class="bg-gray-300 py-3 px-6 ">NOT APPLIED</button>
+            <p class="text-[15px] text-gray-500 font-semibold">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
+            <div class="flex gap-2">
+                <button class="interviewbtn px-3 rounded-sm text-green-500 border border-green-500">INTERVIEW</button>
+                <button class="rejectbtn border px-3 rounded-sm text-red-600 border-red-600">REJECTED</button>
+            </div>
+            </div>
+            <div class="secondone border text-center content-center  h-7 w-8  rounded-full">
+               <i class=" fa-regular fa-trash-can"></i>
+            </div>
+           
+        </div>
+        <div class="cards bg-white flex p-5 rounded-sm">
+            <div class="firstone space-y-3">
+                <h3 class="title text-[20px] font-bold">Mobile First Corp</h3>
+                <p class="text-[15px] text-gray-500 font-semibold">React Native Developer</p>
+                <p class="text-[15px] text-gray-500 font-semibold">Remote • Full-time • $130,000 - $175,000</p>
+                 <button class="bg-gray-300 py-3 px-6 ">NOT APPLIED</button>
+            <p class="text-[15px] text-gray-500 font-semibold">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
+            <div class="flex gap-2">
+                <button class="interviewbtn px-3 rounded-sm text-green-500 border border-green-500">INTERVIEW</button>
+                <button class="rejectbtn border px-3 rounded-sm text-red-600 border-red-600">REJECTED</button>
+            </div>
+            </div>
+            <div class="secondone border text-center content-center  h-7 w-8  rounded-full">
+               <i class=" fa-regular fa-trash-can"></i>
+            </div>
+           
+        </div>
+        <div class="cards bg-white flex p-5 rounded-sm">
+            <div class="firstone space-y-3">
+                <h3 class="title text-[20px] font-bold">Mobile First Corp</h3>
+                <p class="text-[15px] text-gray-500 font-semibold">React Native Developer</p>
+                <p class="text-[15px] text-gray-500 font-semibold">Remote • Full-time • $130,000 - $175,000</p>
+                 <button class="bg-gray-300 py-3 px-6 ">NOT APPLIED</button>
+            <p class="text-[15px] text-gray-500 font-semibold">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
+            <div class="flex gap-2">
+                <button class="interviewbtn px-3 rounded-sm text-green-500 border border-green-500">INTERVIEW</button>
+                <button class="rejectbtn border px-3 rounded-sm text-red-600 border-red-600">REJECTED</button>
+            </div>
+            </div>
+            <div class="secondone border text-center content-center  h-7 w-8  rounded-full">
+               <i class=" fa-regular fa-trash-can"></i>
+            </div>
+           
+        </div>
+        <div class="cards bg-white flex p-5 rounded-sm">
+            <div class="firstone space-y-3">
+                <h3 class="title text-[20px] font-bold">Mobile First Corp</h3>
+                <p class="text-[15px] text-gray-500 font-semibold">React Native Developer</p>
+                <p class="text-[15px] text-gray-500 font-semibold">Remote • Full-time • $130,000 - $175,000</p>
+                 <button class="bg-gray-300 py-3 px-6 ">NOT APPLIED</button>
+            <p class="text-[15px] text-gray-500 font-semibold">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends.</p>
+            <div class="flex gap-2">
+                <button class="interviewbtn px-3 rounded-sm text-green-500 border border-green-500">INTERVIEW</button>
+                <button class="rejectbtn border px-3 rounded-sm text-red-600 border-red-600">REJECTED</button>
+            </div>
+            </div>
+            <div class="secondone border text-center content-center  h-7 w-8  rounded-full">
+               <i class=" fa-regular fa-trash-can"></i>
+            </div>
+           
+        </div>
+    </div>
+</section> 
+    <script src="script.js"></script>
+</body>
+</html>
